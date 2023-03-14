@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+PyQRCode
+pypng
+Pillow
