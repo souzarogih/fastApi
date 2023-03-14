@@ -4,14 +4,20 @@
 não é uma aplicação robusta pois é o meu primeiro contato com a bilbioteca, o objetivo 
 é ter o primeiro contato com a tecnologia</p>
 
-### Documentação Swagger
-`http://127.0.0.1:8000/docs#`
+```bash
+Documentação Swagger
+http://127.0.0.1:8000/docs#
+```
 
-### Documentação Redoc
-`http://localhost:8000/redoc`
+```bash
+Documentação Redoc
+http://localhost:8000/redoc
+```
 
-# Chamada para api
-`http://127.0.0.1:8000/`
+```bash
+Chamada para api
+http://127.0.0.1:8000/
+```
 
 # Rodar o serviço
 ```bash
@@ -23,6 +29,13 @@ $ uvicorn main:app --reload
 ←[32mINFO←[0m:     Waiting for application startup.
 ←[32mINFO←[0m:     Application startup complete.
 ```
+
+|ENDPOINT|METHOD|DESCRIÇÃO|
+|---|---|---|
+|/|GET|Raiz da API|
+|/qrcode|POST|Gerar QRCode|
+|/dados|POST|Criar dados|
+
 
 # Links de referência
 [Doc FastAPI](https://fastapi.tiangolo.com/)
