@@ -1,6 +1,6 @@
 <h1 align="center">First Code with FastAPI</h1>
 
-<p>Este é o meu primeiro projeto em FastAPI, foi feita consultando a documentação, 
+<p align="center">Este é o meu primeiro projeto em FastAPI, foi feita consultando a documentação, 
 não é uma aplicação robusta pois é o meu primeiro contato com a bilbioteca, o objetivo 
 é ter o primeiro contato com a tecnologia</p>
 
@@ -22,7 +22,7 @@ Chamada para api
 http://127.0.0.1:8000/
 ```
 
-# Rodar o serviço
+## Rodar o serviço
 ```bash
 $ uvicorn main:app --reload
 ou
@@ -40,10 +40,10 @@ Saída:
 |ENDPOINT|METHOD|DESCRIÇÃO|
 |---|---|---|
 |/|GET|Raiz da API|
-|/healthcheck|GET|Consultar o estado do serviço|
-|/sale|POST|Gerar QRCode|
-|/store|POST|Criar dados|
-|/product|POSR|Criar dados|
+|/healthcheck|GET| Consultar o estado do serviço|
+|/sale|POST| Criar uma venda|
+|/store|POST|Criar uma loja|
+|/product|POSR|Criar produto|
 
 ### Tecnologias do projeto
 - [ ] S3
@@ -54,6 +54,6 @@ Saída:
 - [ ] Fila (Kafka)
 
 
-# Links de referência
-[Doc FastAPI](https://fastapi.tiangolo.com/)
-[bigger-applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+### Links de referência
+- [Doc FastAPI](https://fastapi.tiangolo.com/)
+- [bigger-applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
